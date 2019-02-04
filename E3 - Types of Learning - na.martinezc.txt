@@ -1,0 +1,10 @@
+TIPOS DE APRENDIZAJE EN MACHINE LEARNING
+Como analistas de datos, todos los días nos enfrentamos a nuevos y cada vez más desafiantes proyectos. Aunque en algún momento desarrollemos planes similares, cabe destacar que cada uno tiene sus particularidades, por lo que es necesario comprender los tipos de algoritmos de aprendizaje automático que existen y cuándo se debe usar cada uno de ellos, lo cual depende de la problemática, el ambiente y los factores influyentes en la toma de decisiones.
+Aprendizaje supervisado: Este se da cuando el modelo es entrenado por información dada, con lo que nos genera un output. Existen dos tipos de aprendizaje supervisado: 
+•	Clasificación: Su principal característica es que la salida tiene etiquetas definidas, es decir, es un valor discreto. En este modelo se evalúa sobre la base de la precisión.
+•	Regresión: En este, el producto tiene un valor continuo. Aquí se evalúa calculando el valor de error. Cuanto menor sea el error, mayor será la precisión del modelo 
+Aprendizaje no supervisado: En este, no se asignan objetivos al modelo, es decir, solo se tienen valores de parámetros de entrada. El propósito es que por sí mismo encuentre de qué manera puede aprender. Existen dos tipos de aprendizaje no supervisado: 
+•	Clustering: es aplicable a grupos de datos basados en diferentes patrones que el modelo encontrará.
+•	Asociación: se basa en reglas que tienen relaciones muy útiles entre los parámetros de un gran conjunto de datos.
+Aprendizaje semisupervisado: Se utiliza cuando se cuenta con datos que están etiquetados levemente y el resto está sin etiquetar. Se explica que es posible usar una técnica no supervisada para predecir las etiquetas y luego alimentar estas etiquetas a técnicas supervisadas. 
+Aprendizaje reforzado: Aquí el modelo aumenta su rendimiento constantemente a través de retroalimentación para aprender el comportamiento o el patrón. Cada vez que se agregan datos, ellos aprenden y agregan datos a su conocimiento que es información de entrenamiento. Así que, cuanto más aprende, mejor entrenado y por lo tanto experimentado.
