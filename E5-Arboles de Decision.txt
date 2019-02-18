@@ -1,0 +1,15 @@
+ARBOLES DE DECISION
+Los árboles de decisión se han posicionado como uno de los métodos más efectivos para la minería de datos; estos han sido ampliamente utilizados en varias disciplinas ya que son fáciles de usar, libres de ambigüedad y robustos. A grandes rasgos, la tarea de un árbol de decisión es examinar todos los campos del conjunto de datos para detectar el que proporciona la mejor clasificación o predicción dividiendo los datos en subgrupos, de la misma manera, dividiendo los subgrupos en unidades cada vez más pequeñas hasta completar el árbol (según se definan los criterios de parada).
+Los modelos de árbol, donde la variable de destino puede tomar un conjunto finito de valores se denominan árboles de clasificación. En estas estructuras de árbol, las hojas representan etiquetas de clase y las ramas pasan a representar las características que conducen a esas etiquetas de clase. Los árboles de decisión, donde la variable de destino puede tomar valores continuos (por lo general números reales) se les denomina árboles de regresión.
+Algunas técnicas, comúnmente llamadas métodos conjuntos híbridos, construyen más de un árbol de decisión, entre las más reconocidas están: 
+•	Bagging 
+•	Clasificador Random Forest
+•	Árboles Impulsados
+•	Rotation Forest
+Entre los algoritmos más destacados de árbol de decisiones están:
+•	ID3 (Iterative Dichotomiser 3)
+•	C4.5 (Sucesor de ID3)
+•	ACR (Árboles de Clasificación y Regresión)
+•	CHAID (Detector automático de Chi-cuadrado de interacción). 
+•	MARS
+Actualmente, los arboles de decisión han tomado mucho auge por su fácil aplicabilidad y adaptabilidad en muchas áreas, desde el ámbito financiero en la toma de decisiones de inversión, reinversión, políticas de créditos y financiamiento a corto y largo plazo hasta el campo de la medicina para predecir trastornos depresivos, epidemiologías, identificación de subgrupos de pacientes que deben tener diferentes pruebas de diagnóstico o estrategias de tratamiento para lograr resultados médicos óptimo.
