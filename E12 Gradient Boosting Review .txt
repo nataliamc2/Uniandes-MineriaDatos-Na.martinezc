@@ -1,0 +1,15 @@
+GRADIENT BOOST VS XGBOOST
+Para entender las principales diferencias entre XGBoost y Gradient Boost, primero debemos conocer el propósito de cada método.
+
+Gradient Boost construye modelos a partir de individuos llamados "aprendices débiles" de manera iterativa. En este caso, los modelos individuales no se basan en subconjuntos de datos y características completamente aleatorios, sino que, secuencialmente, ponen más peso en los casos con predicciones erróneas y errores altos. La idea de esto es que los casos que son difíciles de predecir correctamente se centrarán durante el aprendizaje, de modo que el modelo aprende de errores pasados. 
+
+El gradiente se usa para minimizar una función de pérdida, en cada ronda de capacitación, el aprendiz débil se construye y sus predicciones se comparan con el resultado correcto que se espera. La distancia entre la predicción y la verdad representa la tasa de error del modelo. Estos errores ahora se pueden utilizar para calcular el gradiente (la derivada parcial de la función de pérdida), por lo que describe la inclinación de la función de error. El gradiente se puede utilizar para encontrar la dirección en la que se cambian los parámetros del modelo para (al máximo) reducir el error en la siguiente ronda de entrenamiento.
+
+Ahora bien, XGBoost significa Extreme Gradient Boosting; es una implementación específica del método Gradient Boost que utiliza aproximaciones más precisas para encontrar el mejor modelo de árbol. Este método utiliza una formalización de modelos más regularizada para controlar el ajuste excesivo, lo que le brinda un mejor rendimiento, sus principales diferencias son:
+
+•	Penalización inteligente de los árboles 
+•	Un encogimiento proporcional de los nodos. 
+•	Parámetro de aleatorización adicional
+•	Estructuras de datos mejoradas para una mejor utilización del caché del procesador, lo que lo hace más rápido. 
+•	Mejor soporte para el procesamiento multinúcleo, lo que reduce el tiempo total de entrenamiento
+Para concluir, la diferencia entre Gradient Boost y Xgboost es que en este último, el algoritmo se centra en la potencia de cálculo, al paralelizar la formación de árbol. El Gradient Boost solo se centra en la varianza, pero no en el intercambio entre sesgos, mientras que el aumento de xgboost también puede centrarse en el factor de regularización.
